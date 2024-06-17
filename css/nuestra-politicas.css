@@ -1,0 +1,142 @@
+/* conoice nuestras politicas  */
+.pad {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+.col-title h1 {
+  margin-bottom: 0 !important;
+  color: #00b3a0;
+  font: normal normal bold 60px/73px Montserrat;
+}
+.col-body p {
+  font-size: 20px;
+  margin-top: 10px !important;
+  text-align: left;
+}
+.col-body p small {
+  color: #049ae7;
+  font-size: 22px;
+}
+/* Estilo inicial del acordeón */
+.accordion-item {
+  background: transparent linear-gradient(90deg, #00b3a0 0%, #049ae7 100%) 0% 0%
+    no-repeat padding-box;
+  height: 110px;
+  box-shadow: none !important;
+  border-radius: 34px !important;
+  position: relative;
+}
+.cont-btn--principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.icon-open {
+  cursor: pointer;
+}
+.cont-btn--principal h1 {
+  font-size: 34px;
+  color: var(---color-1);
+  text-align: left;
+  font-weight: 500;
+}
+/* adentro */
+.accordion-content {
+  display: none;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.accordion-item.open {
+  background: none;
+  height: auto;
+  border: 1px solid #03a1d2;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.accordion-item.open .cont-btn--principal h1 {
+  color: #00b3a0;
+}
+.accordion-item.open .accordion-content {
+  display: block;
+}
+.accordion--body-principal p {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+.accordion--body-principal small {
+  color: #049AE7;
+  font-size: 25px;
+}
+.cont-ul li {
+  padding-left: 50px;
+  font-size: 25px;
+  text-align: justify;
+  margin-top: 30px;
+  list-style: none;
+}
+.accordion--body-medio p{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 10px !important;
+}
+.accordion--body-medio .primera small {
+  font-weight: bold; 
+}
+.accordion--body-medio .segunda small{
+  font-weight: bold;
+}
+.accordion--body-medio .tercera small{
+  color: #049AE7;
+  font-size: 25px;
+}
+.accordion--body-medio .cuarta small{
+  color: #049AE7;
+  font-size: 25px;
+}
+.canales-atencion h5{
+  font-size: 30px;
+  color: #049AE7;
+  margin-bottom: 0 !important;
+  margin-top: 20px;
+}
+.canales-atencion p {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 5px !important;
+}
+.accordion-body-final p{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+}
+.accordion-body-mediano p{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+}
+.mediano--primero .color{
+  color:#049AE7; 
+  font-size: 25px;
+  font-weight: 500;
+}
+.mediano--primero small{
+  font-weight: bold;
+}
+.accordion--color p{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  margin-top: 10px !important;
+}
+.accordion--color small{
+  color: #049AE7;
+  font-size: 25px;
+}

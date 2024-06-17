@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65" viewBox="0 0 93 79">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#049ae7"/>
+      <stop offset="1" stop-color="#00b3a0"/>
+    </linearGradient>
+    <filter id="Rectángulo_243" x="0" y="0" width="93" height="79" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_491" data-name="Grupo 491" transform="translate(-481.507 -1778)">
+    <g transform="matrix(1, 0, 0, 1, 481.51, 1778)" filter="url(#Rectángulo_243)">
+      <rect id="Rectángulo_243-2" data-name="Rectángulo 243" width="75" height="61" rx="17" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <line id="Línea_31" data-name="Línea 31" y2="23.568" transform="translate(527.705 1802.716)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+    <line id="Línea_32" data-name="Línea 32" y2="23.568" transform="translate(539.79 1814.802) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>

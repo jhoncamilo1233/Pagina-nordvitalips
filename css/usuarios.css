@@ -1,0 +1,74 @@
+.usuario__info-pqrsf {
+    width: 50%;
+}
+
+.usuarios__contain {
+    width: 80% !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.usuarios__tabs {
+    width: 80% !important;
+}
+
+.usuarios__btn {
+    padding: 1rem 4.8rem !important;
+    background-color: #fff !important;
+    color: #565658 !important;
+    font-weight: 600 !important;
+}
+
+.usuarios__btn.active {
+    background-color: var(---color-13) !important;
+    color: white !important;   
+}
+
+.usuarios__contenido {
+    line-height: 1.2rem;
+    width: 75%;
+}
+
+.usuarios__contenido p {
+    text-align: justify;
+}
+
+.usuarios__contenido h4 {
+    color: var(---color-4);
+    font-weight: 700;
+}
+
+.usuarios__contenido p {
+    color: #565658;
+    font-weight: 500 ;
+}
+
+.usuarios__info {
+    width: 60%;
+}
+
+.usuarios__info p {
+    font-weight: 500;
+    color: #565658;
+}
+
+/* Modal */
+
+.usuarios__container {
+    width: 60% !important;
+    height: auto;
+    margin: auto;
+    background-image: url(/Pagina-nordvitalips/images/Quienes-somos/MISION_Y_VISION.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px !important;
+}
+
+.usuarios__body {
+    border: none !important;
+}
+
+.form__texto p{
+    font-size: 14px;
+    font-weight: 500;
+}

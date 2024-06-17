@@ -1,0 +1,96 @@
+/* HEADER TIPOFRAGIA */
+header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: #00B3A0;
+}
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+/* INFROMACION ADICIONAL DEL HEADER/ CONTENEDOR--HEADER */
+.Contenedor--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00B3A0;
+  height: auto;
+  padding: 20px 30px;
+  gap: 30px;
+}
+
+.Contenedor--header a {
+  color: var(---color-1);
+}
+
+.Contenedor--header > div {
+  color: var(---color-1);
+}
+.cont-hijo-1 {
+  width: 170px;
+}
+.cont-hijo-3 {
+  width: 160px;
+}
+/* NAVBAR */
+nav {
+  background-color: var(---color-2);
+  font-family: "Montserrat";
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.navbar-toggler {
+  border: none !important;
+  font-size: 1.25rem;
+}
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+/* medidad menos de max 991px */
+.nav-link {
+  font-weight: 500;
+  position: relative;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #000000;
+}
+.offcanvas-header{
+  border-bottom: 2px solid #5f5e5e;
+}
+.nord-h5{
+  font-size: 2rem;
+  background: linear-gradient(to right,#007e79 , #00b3a0,#049ae7); 
+  -webkit-text-fill-color: transparent;
+  display: inline; 
+  font-weight: bold;
+  line-height: 2;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.offcanvas-header .btn-close{
+  font-size: 1.4rem;
+} 
+
+.navbar-toggler-icon {
+font-size: 2rem;
+}
+
+.nav__bar_uno {
+  background-color: #F2F2F2;
+}
+
+  .nav__bar_uno img {
+    width: 190px;
+    margin-left: 40px;    
+    padding: 10px 10px;
+  }
+
+.nav__bar__dos {
+  padding: 10px 70px !important;
+}
+
+.ul__bg {
+  background-color: #F2F2F2 !important;
+}

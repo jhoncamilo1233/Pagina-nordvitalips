@@ -1,0 +1,311 @@
+.nav__bar__dos {
+  background-color: #f2f2f2 !important;
+  padding: 10px 10px !important;
+}
+
+.nav__bar_uno img {
+  width: 190px;
+  margin-left: 0px;
+}
+
+.torch__img {
+  width: 100% !important;
+}
+
+
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-3%);
+  width: 0%;
+  height: 2px;
+  background-color: var(---color-13);
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 100%;
+  visibility: visible;
+}
+.menu-cont {
+  background-color: var(---color-12) !important ;
+}
+.nav-link {
+  color: #ffff;
+}
+.offcanvas {
+  background-color: #343a40;
+} 
+/* ESTILO DE MAX-1169PX REACOMODANOD CONTENEDORES*/
+.card-contenido {
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+.card-body{
+margin-top: 15px;
+}
+.card-contenido .video-card {
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.card-contenido .video-card iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.card-contenido .contenido-card {
+  width: 100%;
+  padding: 0;
+}
+
+.contenido-card:before {
+  display: none; /
+}
+
+.cont-card-bo {
+  text-align: justify;
+  font-size: 1.4rem;
+}
+.card-contenido:hover{
+ width: 100%;
+}
+.card-contenido .video-card {
+  position: relative;
+  min-width: auto;
+  height: 100%;
+}
+.cont-card-bo h1 {
+  text-align: center;
+
+}
+.cont-btn-blue{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ips-parrafo p{
+  text-align: justify;
+
+  }*/
+.iframe-video {
+width: 70%;
+height: 70%;
+}
+nav {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+.body {
+margin-bottom: 0;
+}
+.ips h1 {
+padding: 25px 10px;
+}
+.col-12 {
+margin-bottom: 10px;
+}
+.slider-ips {
+margin-top: 40px;
+margin-bottom: 20px;
+} 
+
+/* sedes */
+
+.sedes__uno {
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.container__sedes {
+  width: auto;
+  height: auto;
+}
+
+.container__sedes-items {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.info__sedes button {
+  width: 100%;
+
+}
+
+.sedes__imgs_item {
+  order: 1;
+}
+
+.descripcion__sedes_item {
+  order: 2;
+}
+/* QUIENES SOMOS */
+
+.quienes__somos {
+  flex-direction: column;
+}
+
+.quienes__somos__item-uno {
+  order: 1;
+}
+
+.quienes__somos__item {
+  order: 2;
+}
+
+.quienes__somos__item-uno,
+.quienes__somos__item {
+  width: 90%;
+}
+
+.mv__uno {
+  padding: 2rem !important;
+  flex-direction: column;
+}
+
+.mv__titulo h5 {
+  font-size: 25px !important;
+}
+
+.mv__titulo p {
+  font-size: 15px;
+  width: 100%;
+}
+
+/* AJUSTES DE TABLET BLOG-CONTAINER Y AGENDAR CITAS*/
+.agendar__item {
+margin: 0px 40px;
+text-align: justify;
+}
+
+.agendar__item h1 {
+font-size: 25px;
+font-weight: bold;
+text-align: left;
+}
+
+.blog-container {
+width: 100%;
+}
+.offcanvas-header {
+height: 112px;
+}
+
+/* Usuarios */
+
+.usuarios__info {
+  width: 100%;
+}
+
+.usuarios__tabs {
+  margin-top: 10px;
+  flex-direction: column;
+  width: 90% !important;
+}
+
+.usuarios__btn {
+  padding: 1rem 4.8rem !important;
+  background-color: #fff !important;
+  color: #565658 !important;
+  font-weight: 600 !important;
+}
+
+.usuarios__contenido {
+  width: 100%;
+}
+
+/* Asociacion */
+
+.asociacion__container {
+  flex-direction: column;
+  margin: 1rem !important;
+}
+
+.asociacion__container__item-uno {
+  width: 100%;
+  padding: 1rem !important;
+  margin: 1rem !important;
+}
+
+.asociacion__container__item {
+  width: 100%;
+}
+
+.asociacion__container__item img {
+  width: 100%;
+}
+
+.funciones__item__container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.funciones__titulo {
+  width: 80%;
+}
+
+.funciones__titulo h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.funciones__descripcion {
+  width: 100%;
+}
+
+.funciones__item__container {
+  width: 100%;
+}
+
+/* derechos - deberes */
+
+.db__tabs {
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  justify-content: space-between;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.db__tabs p {
+  font-size: 15px;
+}
+
+.db__btn {
+  padding: 15px !important;
+  background-color: transparent !important;
+  color: #565658 !important;
+  font-weight: 600 !important;
+  border-bottom:none !important;
+}
+
+.db__btn.active {
+  background-color: var(---color-15) !important;
+  color: white !important;   
+}
+
+.db__container {
+  width: 100% !important;
+}
+
+.deberes-derechos_items {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.deberes-derechos_item {
+  width: 100%;
+}

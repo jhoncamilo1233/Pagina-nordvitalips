@@ -1,0 +1,29 @@
+/* CARD VIDEO CON ANIMACION DE QUINES SOMOS */
+.contenedor {
+  position: relative; 
+  width: 100%;
+  height: 900px;
+  overflow: hidden; 
+  transition: all 0.8s ease; 
+  margin-top: 10px;
+}
+.contenedor:hover .video-1 {
+  transform: translateY(-45%); /* Mueve el video hacia la izquierda */
+}
+.contenedor:hover .informacion {
+  transform: translateY(46%); /* Mueve la información hacia la derecha */
+}
+.video-1 {
+  width: 100%;
+  height: 500px;
+  position: absolute; 
+  transition: transform 0.5s ease; 
+  padding: 20px;
+}
+.informacion {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  transition: transform 0.8s ease; 
+  padding: 20px;
+}

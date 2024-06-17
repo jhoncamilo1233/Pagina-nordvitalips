@@ -1,0 +1,23 @@
+.Contenedor--header {
+  display: none;
+}
+/* medio */
+.body {
+  margin-bottom: 0 !important;
+}
+.nav-link {
+  color: #ffff !important;
+  font-size: 2rem !important;
+}
+.cont-servicios {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+nav {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}  
+.nord-h5{
+  font-size: 3rem;
+}
+

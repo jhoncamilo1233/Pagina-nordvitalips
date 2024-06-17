@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <filter id="Elipse_41" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_791" data-name="Grupo 791" transform="translate(57 53.999) rotate(180)">
+    <g transform="matrix(-1, 0, 0, -1, 57, 54)" filter="url(#Elipse_41)">
+      <g id="Elipse_41-2" data-name="Elipse 41" transform="translate(57 54) rotate(180)" fill="#fff" stroke="#0079c4" stroke-width="4">
+        <circle cx="24" cy="24" r="24" stroke="none"/>
+        <circle cx="24" cy="24" r="22" fill="none"/>
+      </g>
+    </g>
+    <path id="Trazado_172" data-name="Trazado 172" d="M19.367,0,9.683,9.684,0,0" transform="translate(14.316 19.847)" fill="none" stroke="#0079c4" stroke-linecap="round" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,224 @@
+/*BOTONES DE SERVICOS  */
+
+.boton-col {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 53px;
+  opacity: 1;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  transition: background-color 0.3s;
+}
+
+.boton-col:hover {
+  background-color: #f0f0f0;
+}
+
+.boton-col:hover .img-flotante:hover {
+  transform: rotate(45deg);
+  transition: transform 1s ease;
+}
+
+.boton-col:hover h1 {
+  color: #0079c4;
+}
+.boton-col h1 {
+  font-size: 30px;
+  color: #00b3a0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cont-fila {
+  position: relative;
+}
+.flotante-btn {
+  position: absolute;
+  top: -5px;
+  left: -15px;
+  display: flex;
+  justify-content: center;
+}
+.img-flotante {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  cursor: pointer;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fluid-cont {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+/* SERVICOS MEDICINA ESPECIALIZADA */
+.cont-esp {
+  width: 95% !important;
+  height: auto;
+}
+.cont-medicina h1 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.medicina h1 {
+  font-weight: bold;
+  color: #565658;
+}
+
+.card-conatctenso {
+  width: 400px;
+  height: auto;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 34px;
+  background-color: #ffff;
+  position: absolute;
+}
+.card-title {
+  border-bottom: 0.5px #565658 solid;
+}
+.card-title h5 {
+  color: #00b3a0;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+.card-text p {
+  color: #565658;
+  padding: 20px;
+}
+.card-text {
+  border-bottom: 1px solid;
+}
+
+.card-comunicacion {
+  padding: 20px 20px 15px 20px;
+}
+
+.card-comunicacion h5 {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+/* Servicios */
+
+.servicios-e {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/* Servicios ofrecidos */
+
+.servicio__me {
+  width: 47% !important;
+  padding: 30px;
+}/* <!-- OFRECEMOS LOS SERVICIOS MEDICOS --> */
+.contenedor-lateral {
+  width: 575px;
+  height: auto;
+  box-shadow: inset 0px 3px 6px #0000000f, 0px 3px 6px #00000029;
+  border-radius: 60px;
+  background-color: #f6f3f3;
+  padding: 40px;
+}
+.ofrecemos {
+
+  height: 68px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 34px;
+  opacity: 1;
+  background-color: #ffff;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.ofrecemos h1 {
+  margin-bottom: 0 !important;
+  font-size: 28px;
+  color: #049ae7;
+  text-align: left;
+  font-weight: bold;
+}
+.ofrecemos--servicios {
+  
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 34px;
+  opacity: 1;
+}
+.medicina-familiar {
+  width: 100%;
+  height: 80px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  padding: 20px;
+  border-bottom: 1px solid #b3b3b3;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.medicina-familiar h1 {
+  color: #444445;
+  margin-bottom: 0 !important;
+  font-size: 28px;
+  padding-left: 20px;
+}
+.endocrinología {
+  border-bottom-left-radius: 34px;
+  border-bottom-right-radius: 34px;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.endocrinología h1{
+  color: #565658;
+  margin-bottom: 0 !important;
+  font-size: 28px;
+  padding-left: 20px;
+}
+.ver-mas{
+
+  height: 68px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 34px;
+  opacity: 1;
+  background-color: #ffff;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.ver-mas h1{
+  margin-bottom: 0 !important;
+  font-size: 28px;
+  color: #049ae7;
+  text-align: left;
+  font-weight: bold;
+}
+.hidden{
+ display: none;
+}
+.cont-informacion{
+  padding: 25px;
+}
+.title-img h1{
+  margin-bottom: 0 !important;
+} 
+.title-img{
+  margin-top: 25px;
+}
+.cont-informacion img{
+  border-radius: 40px;
+}
+.info p{
+margin-top: 15px !important;
+font-size: 22px;
+}

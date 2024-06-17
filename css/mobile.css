@@ -1,0 +1,462 @@
+/* Ips info inicial */
+
+.nav__bar__dos {
+  background-color: #f2f2f2 !important;
+  padding: 10px 10px !important;
+}
+
+.nav__bar_uno img {
+  width: 190px;
+  margin-left: 0px;
+}
+
+.torch__img {
+  width: 100% !important;
+}
+
+.container {
+  padding-bottom: 0px;
+}
+
+/* AJUSTE DE CELULAR BLOG-CONATINER Y AGENDAR CITAS*/
+
+.sedes__descripcion p {
+  width: 100%;
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+.agendar__item {
+  text-align: justify;
+}
+
+.agendar__item p {
+  text-align: justify;
+  font-size: 15px;
+  width: 100%;
+}
+
+.slider__header {
+  width: 100%;
+  height: auto;
+}
+
+.img__carousel img {
+  width: 100% !important;
+  height: 165px !important;
+}
+
+.ips__container {
+  margin: 30px 0px;
+}
+
+.ips__item_2 {
+  margin: 0px 20px;
+}
+
+.agendar__item {
+  margin: 0px 40px;
+  text-align: justify;
+}
+
+.agendar__item > h1 {
+  font-size: 25px;
+  text-align: left;
+}
+
+/* .container p{
+  width: 90% !important;
+  margin: 20px 20px !important;
+  text-align: justify !important;
+} */
+
+.blog-container {
+  width: 100%;
+}
+
+.blog__contenido {
+  height: auto;
+}
+
+.blog-info {
+  margin: 0px 20px;
+}
+
+.blog__uno {
+  padding: 0px 20px !important;
+}
+
+.blog__uno p {
+  text-align: justify !important;
+  width: 100% !important;
+}
+
+.slider-ips {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.m-con {
+  margin-bottom: 0rem !important;
+  margin-top: 1rem;
+}
+
+.ips {
+  border-radius: 25px;
+  margin: 0px 15px;
+}
+
+.ips-parrafo p {
+  margin: 0px 15px;
+  font-size: 1rem;
+}
+
+.ips h1 {
+  padding: 10px 10px;
+}
+
+.nav-link {
+  font-size: 1.5rem !important;
+}
+
+.cont-servicios {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/* NEXT Y PREV */
+.fas {
+  font-size: 1rem;
+  color: #ffff;
+}
+
+button.owl-next,
+button.owl-prev {
+  width: 28px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 50% !important;
+  height: 28px !important;
+  border: 2px solid #ffff !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Overlay */
+.overlay {
+  text-align: left;
+  align-items: end;
+}
+.overlay-hijo {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-right: 10px;
+}
+
+.quien {
+  padding: 10px !important;
+}
+
+.quien h1 {
+  font-size: 30px;
+}
+
+.row-video iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.atencion__item {
+  margin: 50px 0px;
+}
+/* QUIENES SOMOS */
+.row-cont {
+  gap: 20px;
+}
+.icono {
+  display: none;
+}
+.accordion-button {
+  padding-left: 10px !important;
+}
+.accordion-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding: 20px !important;
+}
+
+/* main */
+.quienes {
+  margin-top: 0;
+}
+.contenedor-fila {
+  padding-left: 0;
+}
+.body--col h1 {
+  text-align: center;
+}
+.body--col h2 {
+  text-align: center;
+}
+.body--col p {
+  text-align: justify;
+}
+.bg {
+  width: 100%;
+  border-radius: 1px;
+  padding: 0;
+  position: relative;
+  top: -20px;
+}
+.val .col-6 p {
+  display: flex;
+  justify-content: center;
+}
+.val .col-5 p {
+  display: flex;
+  justify-content: center;
+}
+.prin .col-6 p {
+  color: #565658;
+}
+.prin .col-6 {
+  text-align: center;
+}
+.prin .col-12 {
+  text-align: center;
+}
+.prin .col-12 {
+  color: #565658;
+}
+.cont-valo {
+  position: relative;
+}
+
+/* Sedes */
+.seccion__container {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sedes__li hr {
+  display: none !important;
+}
+
+.hr__uno {
+  border-color: transparent !important;
+}
+
+.hr__uno hr{
+  width: 0px !important;
+}
+
+.hr__uno,
+.sedes__btn.active {
+    border-bottom: none !important;
+}
+/* Estados financieros */
+
+.estados__container {
+  grid-template-columns: max-content;
+  column-gap: 0px;
+}
+
+/* ! Sedes */
+
+.sedes__uno {
+  margin: 0px !important;
+  width: 100% !important;
+}
+
+.container__sedes {
+  width: auto;
+  height: auto;
+}
+
+.container__sedes-items {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.info__sedes button {
+  width: 100%;
+
+}
+
+.sedes__imgs_item {
+  order: 1;
+}
+
+.descripcion__sedes_item {
+  order: 2;
+}
+
+/* Convenios */
+
+.convenios__container {
+  height: 100%;
+}
+
+.convenios__info {
+  width: 90%;
+  margin: 20px;
+}
+
+.acordeon__row {
+  width: auto;
+}
+
+.acordeon__btn img {
+  padding: 20px;
+}
+
+/* Quienes somos */
+
+.quienes__somos {
+  flex-direction: column;
+}
+
+.quienes__somos__item-uno {
+  order: 1;
+}
+
+.quienes__somos__item {
+  order: 2;
+}
+
+.quienes__somos__item-uno,
+.quienes__somos__item {
+  width: 100%;
+}
+
+.mv__resena {
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.mv__uno {
+  padding: 1rem !important;
+  flex-direction: column;
+}
+
+.mv__container {
+  width: 100% !important;
+  border-radius: 0% !important;
+}
+
+.mv__titulo {
+  width: 100%;
+  height: 100%;
+}
+
+.mv__titulo h5 {
+  font-size: 25px !important;
+}
+
+.mv__titulo p {
+  font-size: 15px;
+  width: 100%;
+}
+
+/* Usuarios */
+
+.usuarios__info {
+  width: 100%;
+}
+
+.usuarios__tabs {
+  margin-top: 10px;
+  flex-direction: column;
+  width: 90% !important;
+}
+
+.usuarios__btn {
+  padding: 1rem 4.8rem !important;
+  background-color: #fff !important;
+  color: #565658 !important;
+  font-weight: 600 !important;
+}
+
+.usuarios__contenido {
+  width: 100%;
+}
+
+/* Usuarios */
+
+.asociacion__container {
+  flex-direction: column;
+  margin: 1rem !important;
+}
+
+.asociacion__container__item-uno {
+  width: 100%;
+  padding: 1rem !important;
+  margin: 1rem !important;
+}
+
+.asociacion__container__item {
+  width: 100%;
+}
+
+.funciones__item__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.funciones__titulo {
+  width: 80%;
+}
+
+.funciones__titulo h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.funciones__descripcion {
+  width: 100%;
+}
+
+.funciones__item__container {
+  width: 100%;
+}
+
+/* Derechos deberes */
+
+.db__tabs {
+  display: grid !important;
+  grid-template-columns: auto auto !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.db__tabs p {
+  font-size: 15px;
+}
+
+.db__btn {
+  padding: 15px !important;
+  background-color: transparent !important;
+  color: #565658 !important;
+  font-weight: 600 !important;
+  border-bottom:none !important;
+}
+
+.db__btn.active {
+  background-color: var(---color-15) !important;
+  color: white !important;   
+}
+
+.db__container {
+  width: 100% !important;
+}
+
+.deberes-derechos_items {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.deberes-derechos_item {
+  width: 100%;
+}
